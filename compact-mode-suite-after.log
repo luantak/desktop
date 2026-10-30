@@ -1,0 +1,339 @@
+
+> zen-desktop@1.0.0 test
+> python3 scripts/run_tests.py compact_mode --headless
+
+Test configuration changed. Regenerating backend.
+Skipping test file installation (up to date). Run with --force to force reinstallation.
+Streaming resource usage profile to: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/.mozbuild/logs/test/profile_log_20261030_205219.json
+ 0:00.30 INFO These variables are available in the mozinfo environment and can be used to skip tests conditionally:
+ 0:00.30 INFO     a11y_checks: False
+ 0:00.30 INFO     android: False
+ 0:00.30 INFO     apple_catalina: False
+ 0:00.30 INFO     apple_silicon: False
+ 0:00.30 INFO     appname: zen
+ 0:00.30 INFO     arch: x86_64
+ 0:00.30 INFO     artifact: False
+ 0:00.30 INFO     asan: False
+ 0:00.30 INFO     automation: False
+ 0:00.30 INFO     bin_suffix: 
+ 0:00.30 INFO     bits: 64
+ 0:00.30 INFO     buildapp: browser
+ 0:00.30 INFO     buildtype: opt
+ 0:00.30 INFO     buildtype_guess: opt
+ 0:00.30 INFO     cc_type: clang
+ 0:00.30 INFO     ccov: False
+ 0:00.30 INFO     condprof: False
+ 0:00.30 INFO     coverage: False
+ 0:00.30 INFO     crashreporter: True
+ 0:00.30 INFO     datareporting: True
+ 0:00.30 INFO     dbus_enabled: True
+ 0:00.30 INFO     debug: False
+ 0:00.30 INFO     devedition: False
+ 0:00.30 INFO     display: x11
+ 0:00.30 INFO     e10s: True
+ 0:00.30 INFO     early_beta_or_earlier: False
+ 0:00.30 INFO     enterprise: False
+ 0:00.30 INFO     fission: True
+ 0:00.30 INFO     has_sandbox: True
+ 0:00.30 INFO     headless: True
+ 0:00.30 INFO     healthreport: True
+ 0:00.30 INFO     http2: False
+ 0:00.30 INFO     http3: False
+ 0:00.30 INFO     inc_origin_init: False
+ 0:00.30 INFO     is_emulator: False
+ 0:00.30 INFO     is_ubuntu: False
+ 0:00.30 INFO     isolated_process: False
+ 0:00.30 INFO     linux_distro: Fedora Linux
+ 0:00.30 INFO     macos_vm: False
+ 0:00.30 INFO     mda_gpu: False
+ 0:00.30 INFO     mingw: False
+ 0:00.30 INFO     mozconfig: /home/luap/zen-desktop/engine/mozconfig
+ 0:00.30 INFO     msix: False
+ 0:00.30 INFO     nightly_build: False
+ 0:00.30 INFO     nogpu: False
+ 0:00.30 INFO     normandy: True
+ 0:00.30 INFO     nova: True
+ 0:00.30 INFO     official: False
+ 0:00.30 INFO     opt: True
+ 0:00.30 INFO     os: linux
+ 0:00.30 INFO     os_version: 44
+ 0:00.30 INFO     pgo: False
+ 0:00.30 INFO     platform_guess: linux64
+ 0:00.30 INFO     processor: x86_64
+ 0:00.30 INFO     release_or_beta: True
+ 0:00.30 INFO     require_signing: False
+ 0:00.30 INFO     sessionHistoryInParent: True
+ 0:00.30 INFO     socketprocess_e10s: False
+ 0:00.30 INFO     socketprocess_networking: False
+ 0:00.30 INFO     standalone: False
+ 0:00.30 INFO     stylo: True
+ 0:00.30 INFO     swgl: False
+ 0:00.30 INFO     sync: True
+ 0:00.30 INFO     telemetry: False
+ 0:00.30 INFO     tests_enabled: True
+ 0:00.30 INFO     toolkit: gtk
+ 0:00.30 INFO     topobjdir: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu
+ 0:00.30 INFO     topsrcdir: /home/luap/zen-desktop/engine
+ 0:00.30 INFO     tsan: False
+ 0:00.30 INFO     ubsan: False
+ 0:00.30 INFO     updater: True
+ 0:00.30 INFO     verify: False
+ 0:00.30 INFO     verify_fission: False
+ 0:00.30 INFO     version: Fedora Linux 44
+ 0:00.30 INFO     vertical_tab: False
+ 0:00.30 INFO     win10_2009: False
+ 0:00.30 INFO     win11_2009: False
+ 0:00.30 INFO     wmfme: 0
+ 0:00.30 INFO     xorigin: False
+ 0:00.30 INFO Checking for ssltunnel processes...
+ 0:00.33 INFO Checking for xpcshell processes...
+ 0:00.35 SUITE_START: mochitest-browser - running 4 tests
+ 0:00.35 INFO Running manifest: zen/tests/compact_mode/browser.toml
+ 0:00.45 pid:127218 Full command: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/pk12util -i /home/luap/zen-desktop/engine/build/pgo/certs/mochitest.client -w /tmp/tmpd0mpp4lu.mozrunner/.crtdbpw -d /tmp/tmpd0mpp4lu.mozrunner
+pid:127218 pk12util: PKCS12 IMPORT SUCCESSFUL
+
+ 0:00.56 INFO MochitestServer : launching ['/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/xpcshell', '-g', '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin', '-e', "const _PROFILE_PATH = '/tmp/tmpd0mpp4lu.mozrunner'; const _SERVER_PORT = '8888'; const _SERVER_ADDR = '127.0.0.1'; const _TEST_PREFIX = undefined; const _DISPLAY_RESULTS = false; const _HTTPD_PATH = '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/components'; ", '-f', '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/server.js']
+ 0:00.56 INFO runtests.py | Server pid: 127228
+ 0:00.56 INFO runtests.py | Websocket server pid: 127229
+ 0:00.56 INFO runtests.py | SSL tunnel pid: 127230
+ 0:00.61 INFO use http3 server: False
+ 0:00.61 INFO Use build node at /home/luap/.mozbuild/node/bin/node
+ 0:00.62 INFO mozserve | Found moz-http2 server path: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/xpcshell/moz-http2/moz-http2.js
+ 0:00.62 INFO Found node at /home/luap/.mozbuild/node/bin/node
+ 0:00.67 INFO mozserve | moz-http2 server msg: HTTP2 server listening on ports 42727,45079
+
+ 0:00.67 INFO moz-http2 server started on ports 42727, 45079
+ 0:00.67 INFO node moz-http2 [stderr] (node:127271) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+
+ 0:00.67 INFO node moz-http2 [stderr] (Use `node --trace-deprecation ...` to show where the warning was created)
+
+ 0:00.67 INFO runtests.py | Running with scheme: http
+ 0:00.67 INFO runtests.py | Running with e10s: True
+ 0:00.67 INFO runtests.py | Running with fission: True
+ 0:00.67 INFO runtests.py | Running with cross-origin iframes: False
+ 0:00.67 INFO runtests.py | Running with socketprocess_e10s: False
+ 0:00.67 INFO runtests.py | Running http tests: start.
+
+ 0:00.70 WARNING Found 'firefox' running before starting test browser!
+ 0:00.70 WARNING {'ppid': 5110, 'pid': 7996, 'cmdline': ['/usr/lib64/firefox/firefox'], 'username': 'luap', 'name': 'firefox'}
+
+ 0:00.70 INFO Marionette port 2828 already in use, falling back to port 40149
+ 0:00.70 INFO Application command: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/zen -marionette -foreground -profile /tmp/tmpd0mpp4lu.mozrunner
+ 0:00.72 INFO runtests.py | Application pid: 127281
+ 0:00.72 Started process `GECKO(127281)`
+ 0:00.75 GECKO(127281) *** You are running in headless mode.
+ 0:00.81 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_socket_pid127320.log
+ 0:00.98 GECKO(127281) 1793389940834	Marionette	INFO	Marionette enabled
+ 0:00.98 GECKO(127281) 1793389940835	Marionette	TRACE	Received observer notification final-ui-startup
+ 0:00.98 GECKO(127281) 1793389940835	Marionette	DEBUG	Initializing Marionette
+ 0:01.04 GECKO(127281) console.error: "Warning: unrecognized command line flag" "-foreground"
+ 0:01.04 GECKO(127281) JavaScript warning: moz-src:///browser/components/aiwindow/ui/modules/AIWindow.sys.mjs, line 414: unreachable code after return statement
+ 0:01.06 GECKO(127281) 1793389940913	Marionette	INFO	Listening on port 40149
+ 0:01.06 GECKO(127281) 1793389940913	Marionette	DEBUG	Marionette is listening
+ 0:01.07 GECKO(127281) 1793389940926	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:50984
+ 0:01.09 GECKO(127281) 1793389940945	Marionette	DEBUG	Closed connection 0
+ 0:01.09 GECKO(127281) 1793389940945	Marionette	DEBUG	Accepted connection 1 from 127.0.0.1:50988
+ 0:01.15 GECKO(127281) 1793389941008	Marionette	DEBUG	1 -> [0,1,"WebDriver:NewSession",{"strictFileInteractability":true}]
+ 0:01.16 GECKO(127281) 1793389941014	Marionette	DEBUG	Waiting for initial application window
+ 0:01.16 GECKO(127281) console.debug: "ZenSessionManager:" "Initializing session manager"
+ 0:01.16 GECKO(127281) console.debug: "ZenSessionManager:" "Session file path:" "/tmp/tmpd0mpp4lu.mozrunner/zen-sessions.jsonlz4"
+ 0:01.16 GECKO(127281) console.debug: "ZenSessionManager:" "Reading Zen session file from disk"
+ 0:01.19 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127433.log
+ 0:01.20 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127433.log
+ 0:01.20 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_rdd_pid127441.log
+ 0:01.20 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_rdd_pid127441.log
+ 0:01.22 GECKO(127281) JavaScript warning: chrome://browser/content/tabbrowser/drag-and-drop.js, line 1587: unreachable code after return statement
+ 0:01.23 GECKO(127281) JavaScript warning: moz-src:///browser/components/tabbrowser/Tabbrowser.sys.mjs, line 539: unreachable code after return statement
+ 0:01.24 GECKO(127281) JavaScript warning: chrome://browser/content/tabbrowser/tabs.mjs, line 1042: unreachable code after return statement
+ 0:01.33 GECKO(127281) console.error: "Failed to read backup file /tmp/tmpd0mpp4lu.mozrunner/zen-sessions-backup/clean.jsonlz4" (new NotFoundError("Could not open `/tmp/tmpd0mpp4lu.mozrunner/zen-sessions-backup/clean.jsonlz4': file does not exist (NS_ERROR_FILE_NOT_FOUND)", (void 0)))
+ 0:01.33 GECKO(127281) console.debug: "ZenSessionManager:" "No spaces data found in session file, running migration" [object Object]
+ 0:01.34 GECKO(127281) console.error: "Failed to read spaces data from database during migration" (new Error("Error(s) encountered during statement execution: no such table: zen_workspaces", "resource://gre/modules/Sqlite.sys.mjs", 1193))
+ 0:01.34 GECKO(127281) console.error: "Failed to read pins data from database during migration" (new Error("Error(s) encountered during statement execution: no such table: zen_pins", "resource://gre/modules/Sqlite.sys.mjs", 1193))
+ 0:01.35 GECKO(127281) console.debug: "ZenSessionManager:" "Restoring tabs from Places DB after migration" null (void 0) [object Object]
+ 0:01.35 GECKO(127281) console.debug: "ZenSessionManager:" "Build ID has changed since last session, not restoring only pinned tabs" ({buildId:"20261030202514", lastBuildId:""})
+ 0:01.35 GECKO(127281) console.debug: "ZenSessionManager:" "Saving windata state after migration"
+ 0:01.35 GECKO(127281) console.debug: "ZenSessionManager:" "Saving Zen session data with 0 tabs"
+ 0:01.41 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/tabbrowser/tabs.mjs:46:10
+ 0:01.44 GECKO(127281) JavaScript warning: moz-src:///browser/components/urlbar/UrlbarMuxerStandard.sys.mjs, line 936: unreachable code after return statement
+ 0:01.53 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127495.log
+ 0:01.54 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127495.log
+ 0:01.55 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:70:12
+ 0:01.55 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:71:12
+ 0:01.55 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:72:16
+ 0:01.55 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:73:16
+ 0:01.76 GECKO(127281) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+ 0:01.86 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! resource:///modules/zen/ZenSpace.mjs:607:12
+ 0:01.86 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! resource:///modules/zen/ZenSpace.mjs:610:12
+ 0:01.88 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127533.log
+ 0:01.89 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127533.log
+ 0:01.93 GECKO(127281) console.debug: "[gZenWorkspaces]:" "Changing workspace to" "{765ebdaa-98b0-4f22-a48a-bb483884d89c}"
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:730:13
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:862:30
+ 0:01.93 GECKO(127281) [Parent 127281: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:919:13
+ 0:01.97 GECKO(127281) console.warn: "[ZenMods]: No enabled Zen mods."
+ 0:01.99 GECKO(127281) JavaScript error: moz-src:///browser/components/sessionstore/SessionStartup.sys.mjs, line 259: TypeError: can't access property "length", initialState.savedGroups is undefined
+ 0:02.14 GECKO(127281) console.error: services.settings:
+ 0:02.14 GECKO(127281)   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+ 0:02.14 GECKO(127281)   Stack:
+ 0:02.14 GECKO(127281)     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+ 0:02.14 GECKO(127281) list@resource://services-settings/Database.sys.mjs:96:13
+ 0:02.14 GECKO(127281) async*get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+ 0:02.14 GECKO(127281) async*getRecipesFromCollection/recipes<@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:792:16
+ 0:02.14 GECKO(127281) #raceShutdown@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:748:34
+ 0:02.14 GECKO(127281) getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:791:41
+ 0:02.14 GECKO(127281) getRecipesFromAllCollections@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:647:39
+ 0:02.14 GECKO(127281) #updateImpl@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:517:33
+ 0:02.14 GECKO(127281) async*updateRecipes/<@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:434:55
+ 0:02.14 GECKO(127281) LockGrantedCallback*withUpdateLock@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:370:26
+ 0:02.14 GECKO(127281) updateRecipes@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:434:18
+ 0:02.14 GECKO(127281) enable@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:322:16
+ 0:02.14 GECKO(127281) #init@resource://nimbus/ExperimentAPI.sys.mjs:325:28
+ 0:02.14 GECKO(127281) async*init@resource://nimbus/ExperimentAPI.sys.mjs:264:49
+ 0:02.14 GECKO(127281) finishInit@resource://normandy/Normandy.sys.mjs:80:30
+ 0:02.14 GECKO(127281) init@resource://normandy/Normandy.sys.mjs:58:16
+ 0:02.14 GECKO(127281) async*fn@resource://gre/modules/BrowserUtils.sys.mjs:83:33
+ 0:02.14 GECKO(127281) callSingleListener@resource://gre/modules/BrowserUtils.sys.mjs:778:15
+ 0:02.14 GECKO(127281) callModulesFromCategory@resource://gre/modules/BrowserUtils.sys.mjs:829:23
+ 0:02.14 GECKO(127281) BG__beforeUIStartup@moz-src:///browser/components/BrowserGlue.sys.mjs:423:23
+ 0:02.14 GECKO(127281) BG_observe@moz-src:///browser/components/BrowserGlue.sys.mjs:205:14
+ 0:02.27 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_utility_pid127576.log
+ 0:02.27 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_utility_pid127576.log
+ 0:02.29 GECKO(127281) 1793389942142	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+ 0:02.48 GECKO(127281) 1793389942339	RemoteAgent	TRACE	[10] ProgressListener Start: expectNavigation=false resolveWhenStarted=false unloadTimeout=5000 waitForExplicitStart=false
+ 0:02.48 GECKO(127281) 1793389942339	RemoteAgent	TRACE	[10] ProgressListener Setting unload timer (5000ms)
+ 0:02.48 GECKO(127281) 1793389942340	RemoteAgent	TRACE	[10] Wait for initial navigation: isUncommittedInitial=false, isLoadingDocument=false
+ 0:02.48 GECKO(127281) 1793389942340	RemoteAgent	TRACE	[10] Document already finished loading: about:blank
+ 0:02.48 GECKO(127281) 1793389942340	RemoteAgent	TRACE	[10] ProgressListener Stop: has error=false url=about:blank
+ 0:02.49 GECKO(127281) 1793389942351	Marionette	DEBUG	1 <- [1,1,null,{"sessionId":"7e1b28ee-706e-44f8-b965-b622974570c0","capabilities":{"acceptInsecureCerts":false,"browserName":"zen","browserVersion":"1.0.0","platformName":"linux","setWindowRect":true,"unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0","moz:buildID":"20261030202514","moz:headless":true,"moz:platformVersion":"7.2.13-200.fc44.x86_64","moz:processID":127281,"moz:profile":"/tmp/tmpd0mpp4lu.mozrunner","moz:shutdownTimeout":73000,"pageLoadStrategy":"normal","timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"strictFileInteractability":true,"moz:accessibilityChecks":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+ 0:02.50 GECKO(127281) 1793389942361	Marionette	DEBUG	1 -> [0,2,"Addon:Install",{"temporary":false,"path":"/tmp/tmpwj6zgi48.zip"}]
+ 0:02.51 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127598.log
+ 0:02.51 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127598.log
+ 0:02.51 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127601.log
+ 0:02.51 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127601.log
+ 0:02.51 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127610.log
+ 0:02.52 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127610.log
+ 0:02.52 GECKO(127281) console.warn: "[ZenMods]: No enabled Zen mods."
+ 0:02.58 GECKO(127281) 1793389942435	Marionette	DEBUG	1 <- [1,2,null,{"value":"special-powers@mozilla.org"}]
+ 0:02.59 GECKO(127281) 1793389942451	Marionette	DEBUG	1 -> [0,3,"Addon:Install",{"temporary":false,"path":"/tmp/tmp8awjvjd0.zip"}]
+ 0:02.61 GECKO(127281) 1793389942464	Marionette	DEBUG	1 <- [1,3,null,{"value":"mochikit@mozilla.org"}]
+ 0:02.61 GECKO(127281) 1793389942465	Marionette	DEBUG	1 -> [0,4,"Marionette:GetContext",{}]
+ 0:02.61 GECKO(127281) 1793389942465	Marionette	DEBUG	1 <- [1,4,null,{"value":"content"}]
+ 0:02.61 GECKO(127281) 1793389942465	Marionette	DEBUG	1 -> [0,5,"Marionette:SetContext",{"value":"chrome"}]
+ 0:02.61 GECKO(127281) 1793389942466	Marionette	DEBUG	1 <- [1,5,null,{"value":null}]
+ 0:02.61 GECKO(127281) 1793389942467	Marionette	DEBUG	1 -> [0,6,"WebDriver:ExecuteScript",{"script":"/* This Source Code Form is subject to the terms of the Mozilla Public\n * License, v. 2.0. If a copy of the MPL was not distr ... \n// the flavor and url to load.\nlet ev = new CustomEvent(\"mochitest-load\", { detail: [flavor, url] });\nwin.dispatchEvent(ev);","args":[{"flavor":"browser-chrome","testUrl":"about:blank"}],"newSandbox":true,"sandbox":"default","line":2382,"filename":"_tests/testing/mochitest/runtests.py"}]
+ 0:02.61 GECKO(127281) 1793389942470	RemoteAgent	TRACE	WebDriverProcessData actor created for PID 127281
+ 0:02.61 GECKO(127281) 1793389942471	Marionette	TRACE	[1] MarionetteCommands actor created for window id 2
+ 0:02.63 GECKO(127281) 1793389942483	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 10
+ 0:02.63 GECKO(127281) 1793389942485	Marionette	DEBUG	1 <- [1,6,null,{"value":null}]
+ 0:02.64 GECKO(127281) 1793389942495	Marionette	DEBUG	1 -> [0,7,"Marionette:SetContext",{"value":"content"}]
+ 0:02.64 GECKO(127281) 1793389942495	Marionette	DEBUG	1 <- [1,7,null,{"value":null}]
+ 0:02.65 GECKO(127281) 1793389942508	Marionette	DEBUG	1 -> [0,8,"WebDriver:DeleteSession",{}]
+ 0:02.65 GECKO(127281) 1793389942509	Marionette	TRACE	[1] MarionetteCommands actor destroyed for window id 2
+ 0:02.65 GECKO(127281) 1793389942510	Marionette	DEBUG	1 <- [1,8,null,{"value":null}]
+ 0:02.65 INFO runtests.py | Waiting for browser...
+ 0:02.65 GECKO(127281) 1793389942511	Marionette	DEBUG	Closed connection 1
+ 0:02.67 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127704.log
+ 0:02.67 GECKO(127281) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpd0mpp4lu.mozrunner/runtests_leaks_tab_pid127704.log
+ 0:02.69 INFO *** Start BrowserChrome Test Results ***
+ 0:02.69 INFO checking for open sidebars
+ 0:02.69 INFO checking window state
+ 0:02.79 TEST_START: zen/tests/compact_mode/browser_compact_mode_layout_event.js
+ 0:02.79 INFO Entering test test_layout_update_is_dispatched_synchronously
+ 0:02.80 INFO Leaving test test_layout_update_is_dispatched_synchronously
+ 0:02.83 INFO checking for open popups
+ 0:03.05 GECKO(127281) MEMORY STAT vsizeMaxContiguous not supported in this build configuration.
+ 0:03.05 GECKO(127281) MEMORY STAT | vsize 11449MB | residentFast 379MB | heapAllocated 268MB
+ 0:03.05 INFO checking for open sidebars
+ 0:03.05 INFO checking window state
+ 0:03.05 TEST_END: Test PASS. Subtests passed 7/7. Unexpected 0
+ 0:03.09 TEST_START: zen/tests/compact_mode/browser_compact_mode_toggle_position.js
+ 0:03.09 INFO Entering test test_compact_mode_toggle_position
+ 0:03.14 INFO Sidebar width 240, window controls hidden: true
+ 0:03.64 INFO Sidebar width 320, window controls hidden: true
+ 0:04.13 INFO Sidebar width 240, window controls hidden: false
+ 0:04.61 INFO Sidebar width 320, window controls hidden: false
+ 0:05.06 INFO Leaving test test_compact_mode_toggle_position
+ 0:05.10 INFO checking for open popups
+ 0:05.46 GECKO(127281) MEMORY STAT | vsize 11470MB | residentFast 385MB | heapAllocated 274MB
+ 0:05.46 INFO checking for open sidebars
+ 0:05.46 INFO checking window state
+ 0:05.46 TEST_END: Test PASS. Subtests passed 16/16. Unexpected 0
+ 0:05.48 TEST_START: zen/tests/compact_mode/browser_compact_mode_width.js
+ 0:05.49 INFO Entering test test_Compact_Mode_Width
+ 0:06.59 INFO Leaving test test_Compact_Mode_Width
+ 0:06.60 INFO Entering test test_Compact_Mode_Width_Right_Side
+ 0:09.76 INFO Leaving test test_Compact_Mode_Width_Right_Side
+ 0:09.76 INFO Entering test test_Compact_Mode_Hover
+ 0:10.76 INFO Leaving test test_Compact_Mode_Hover
+ 0:10.76 INFO checking for open popups
+ 0:10.79 GECKO(127281) MEMORY STAT | vsize 11469MB | residentFast 378MB | heapAllocated 265MB
+ 0:10.79 INFO checking for open sidebars
+ 0:10.79 INFO checking window state
+ 0:10.79 TEST_END: Test PASS. Subtests passed 3/3. Unexpected 0
+ 0:10.81 TEST_START: zen/tests/compact_mode/browser_issue_15814.js
+ 0:10.81 INFO Entering test test_window_buttons_hover_without_sidebar_hover
+ 0:10.82 INFO Leaving test test_window_buttons_hover_without_sidebar_hover
+ 0:10.82 INFO checking for open popups
+ 0:10.84 GECKO(127281) MEMORY STAT | vsize 11468MB | residentFast 378MB | heapAllocated 264MB
+ 0:10.84 INFO checking for open sidebars
+ 0:10.84 INFO checking window state
+ 0:10.84 TEST_END: Test PASS. Subtests passed 3/3. Unexpected 0
+ 0:11.86 GECKO(127281) Completed ShutdownLeaks collections in process 127533
+ 0:11.86 GECKO(127281) Completed ShutdownLeaks collections in process 127598
+ 0:11.88 GECKO(127281) Completed ShutdownLeaks collections in process 127433
+ 0:11.90 GECKO(127281) Completed ShutdownLeaks collections in process 127495
+ 0:12.04 GECKO(127281) Completed ShutdownLeaks collections in process 127281
+ 0:12.04 INFO TEST-START | Shutdown
+ 0:12.04 INFO Browser Chrome Test Summary
+ 0:12.04 INFO Passed:  29
+ 0:12.04 INFO Failed:  0
+ 0:12.04 INFO Todo:    0
+ 0:12.04 INFO Mode:    e10s
+ 0:12.04 INFO *** End BrowserChrome Test Results ***
+ 0:12.25 GECKO(127281) console.debug: "ZenSessionManager:" "Skipping blank tab data" ({entries:[{url:"about:blank", title:"about:blank", cacheKey:0, ID:12, docshellUUID:"{ac9efc37-e070-41d3-b61d-3d1737fa364f}", resultPrincipalURI:null, principalToInherit_base64:"{\"0\":{\"0\":\"moz-nullprincipal:{65faa143-5887-404c-a7d5-302b22d4e34e}\"}}", hasUserInteraction:false, triggeringPrincipal_base64:"{\"3\":{}}", docIdentifier:15, transient:false, navigationKey:"{314a3b5c-cc1b-471e-99ab-a60733bb40b5}", navigationId:"{d2a47840-76e8-4d2f-bea3-6865fecbc58a}"}], lastAccessed:1793389952097, hidden:false, zenWorkspace:"{765ebdaa-98b0-4f22-a48a-bb483884d89c}", zenSyncId:"1793389941789-37cd6887-4ca5-47d1-867e-e56c5b3be815", zenEssential:false, pinned:false, zenDefaultUserContextId:null, zenPinnedIcon:null, zenIsEmpty:false, zenStaticLabel:(void 0), zenHasStaticIcon:false, zenGlanceId:null, zenIsGlance:false, _zenPinnedInitialState:(void 0), _zenIsActiveTab:true, zenLiveFolderItemId:null, searchMode:null, userContextId:0, attributes:{}, index:1, requestedIndex:0, image:null})
+ 0:12.25 GECKO(127281) console.debug: "ZenSessionManager:" "Saving Zen session data with 1 tabs"
+ 0:12.25 GECKO(127281) 1793389952104	Marionette	TRACE	Received observer notification quit-application
+ 0:12.25 GECKO(127281) 1793389952104	Marionette	TRACE	Application is shutting down with reason: "shutdown"
+ 0:12.25 GECKO(127281) 1793389952104	Marionette	INFO	Stopped listening on port 40149
+ 0:12.27 GECKO(127281) 1793389952122	Marionette	DEBUG	Marionette stopped listening
+ 0:12.35 GECKO(127281) 1793389952210	Marionette	TRACE	Received observer notification xpcom-shutdown
+ 0:12.37 GECKO(127281) 1793389952224	Marionette	TRACE	Received observer notification xpcom-shutdown-threads
+ 0:12.41 Main app process: exit 0
+ 0:12.41 INFO runtests.py | Main app process exited normally
+ 0:12.41 INFO runtests.py | Application ran for: 0:00:11.712581
+ 0:12.41 INFO zombiecheck | Reading PID log: /tmp/tmpnwy6w0_5pidlog
+ 0:12.41 INFO ==> process 127281 launched child process 127320
+ 0:12.41 INFO ==> process 127281 launched child process 127428
+ 0:12.41 INFO zombiecheck | Checking for orphan process with PID: 127320
+ 0:12.41 INFO zombiecheck | Checking for orphan process with PID: 127428
+ 0:12.41 INFO runtests.py | Running http tests: end. status: 0
+ 0:12.41 INFO Stopping web server
+ 0:12.41 INFO Server shut down.
+ 0:12.41 INFO Web server killed.
+ 0:12.41 INFO Stopping web socket server
+ 0:12.41 INFO Stopping ssltunnel
+ 0:12.42 WARNING leakcheck | refcount logging is off, so leaks can't be detected!
+ 0:12.43 INFO Buffered messages finished
+TEST-INFO | checking window state
+Browser Chrome Test Summary
+	Passed: 29
+	Failed: 0
+	Todo: 0
+	Retried: 0
+	Mode: e10s
+*** End BrowserChrome Test Results ***
+ 0:12.43 INFO Buffered messages finished
+ 0:12.43 SUITE_END
+ 0:12.43 
+Overall Summary
+===============
+
+mochitest-browser
+~~~~~~~~~~~~~~~~~
+Ran 33 checks (29 subtests, 4 tests)
+Expected results: 33
+Unexpected results: 0
+OK

@@ -1,0 +1,425 @@
+
+> zen-desktop@1.0.0 test
+> python3 scripts/run_tests.py compact_mode/browser_compact_mode_toggle_position.js --headless
+
+Test configuration changed. Regenerating backend.
+Skipping test file installation (up to date). Run with --force to force reinstallation.
+Streaming resource usage profile to: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/.mozbuild/logs/test/profile_log_20261030_205114.json
+ 0:00.28 INFO These variables are available in the mozinfo environment and can be used to skip tests conditionally:
+ 0:00.28 INFO     a11y_checks: False
+ 0:00.28 INFO     android: False
+ 0:00.28 INFO     apple_catalina: False
+ 0:00.28 INFO     apple_silicon: False
+ 0:00.28 INFO     appname: zen
+ 0:00.28 INFO     arch: x86_64
+ 0:00.28 INFO     artifact: False
+ 0:00.28 INFO     asan: False
+ 0:00.28 INFO     automation: False
+ 0:00.28 INFO     bin_suffix: 
+ 0:00.28 INFO     bits: 64
+ 0:00.28 INFO     buildapp: browser
+ 0:00.28 INFO     buildtype: opt
+ 0:00.28 INFO     buildtype_guess: opt
+ 0:00.28 INFO     cc_type: clang
+ 0:00.28 INFO     ccov: False
+ 0:00.28 INFO     condprof: False
+ 0:00.28 INFO     coverage: False
+ 0:00.28 INFO     crashreporter: True
+ 0:00.28 INFO     datareporting: True
+ 0:00.28 INFO     dbus_enabled: True
+ 0:00.28 INFO     debug: False
+ 0:00.28 INFO     devedition: False
+ 0:00.28 INFO     display: x11
+ 0:00.28 INFO     e10s: True
+ 0:00.28 INFO     early_beta_or_earlier: False
+ 0:00.28 INFO     enterprise: False
+ 0:00.28 INFO     fission: True
+ 0:00.28 INFO     has_sandbox: True
+ 0:00.28 INFO     headless: True
+ 0:00.28 INFO     healthreport: True
+ 0:00.28 INFO     http2: False
+ 0:00.28 INFO     http3: False
+ 0:00.28 INFO     inc_origin_init: False
+ 0:00.28 INFO     is_emulator: False
+ 0:00.28 INFO     is_ubuntu: False
+ 0:00.28 INFO     isolated_process: False
+ 0:00.28 INFO     linux_distro: Fedora Linux
+ 0:00.28 INFO     macos_vm: False
+ 0:00.28 INFO     mda_gpu: False
+ 0:00.28 INFO     mingw: False
+ 0:00.28 INFO     mozconfig: /home/luap/zen-desktop/engine/mozconfig
+ 0:00.28 INFO     msix: False
+ 0:00.28 INFO     nightly_build: False
+ 0:00.28 INFO     nogpu: False
+ 0:00.28 INFO     normandy: True
+ 0:00.28 INFO     nova: True
+ 0:00.28 INFO     official: False
+ 0:00.28 INFO     opt: True
+ 0:00.28 INFO     os: linux
+ 0:00.28 INFO     os_version: 44
+ 0:00.28 INFO     pgo: False
+ 0:00.28 INFO     platform_guess: linux64
+ 0:00.28 INFO     processor: x86_64
+ 0:00.28 INFO     release_or_beta: True
+ 0:00.28 INFO     require_signing: False
+ 0:00.28 INFO     sessionHistoryInParent: True
+ 0:00.28 INFO     socketprocess_e10s: False
+ 0:00.28 INFO     socketprocess_networking: False
+ 0:00.28 INFO     standalone: False
+ 0:00.28 INFO     stylo: True
+ 0:00.28 INFO     swgl: False
+ 0:00.28 INFO     sync: True
+ 0:00.28 INFO     telemetry: False
+ 0:00.28 INFO     tests_enabled: True
+ 0:00.28 INFO     toolkit: gtk
+ 0:00.29 INFO     topobjdir: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu
+ 0:00.29 INFO     topsrcdir: /home/luap/zen-desktop/engine
+ 0:00.29 INFO     tsan: False
+ 0:00.29 INFO     ubsan: False
+ 0:00.29 INFO     updater: True
+ 0:00.29 INFO     verify: False
+ 0:00.29 INFO     verify_fission: False
+ 0:00.29 INFO     version: Fedora Linux 44
+ 0:00.29 INFO     vertical_tab: False
+ 0:00.29 INFO     win10_2009: False
+ 0:00.29 INFO     win11_2009: False
+ 0:00.29 INFO     wmfme: 0
+ 0:00.29 INFO     xorigin: False
+ 0:00.29 INFO Checking for ssltunnel processes...
+ 0:00.32 INFO Checking for xpcshell processes...
+ 0:00.34 SUITE_START: mochitest-browser - running 1 tests
+ 0:00.34 INFO Running manifest: zen/tests/compact_mode/browser.toml
+ 0:00.43 pid:124721 Full command: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/pk12util -i /home/luap/zen-desktop/engine/build/pgo/certs/mochitest.client -w /tmp/tmpc6kcjplu.mozrunner/.crtdbpw -d /tmp/tmpc6kcjplu.mozrunner
+pid:124721 pk12util: PKCS12 IMPORT SUCCESSFUL
+
+ 0:00.55 INFO MochitestServer : launching ['/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/xpcshell', '-g', '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin', '-e', "const _PROFILE_PATH = '/tmp/tmpc6kcjplu.mozrunner'; const _SERVER_PORT = '8888'; const _SERVER_ADDR = '127.0.0.1'; const _TEST_PREFIX = undefined; const _DISPLAY_RESULTS = false; const _HTTPD_PATH = '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/components'; ", '-f', '/home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/server.js']
+ 0:00.55 INFO runtests.py | Server pid: 124731
+ 0:00.55 INFO runtests.py | Websocket server pid: 124732
+ 0:00.55 INFO runtests.py | SSL tunnel pid: 124733
+ 0:00.65 INFO use http3 server: False
+ 0:00.65 INFO Use build node at /home/luap/.mozbuild/node/bin/node
+ 0:00.65 INFO mozserve | Found moz-http2 server path: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/_tests/testing/mochitest/xpcshell/moz-http2/moz-http2.js
+ 0:00.65 INFO Found node at /home/luap/.mozbuild/node/bin/node
+ 0:00.70 INFO mozserve | moz-http2 server msg: HTTP2 server listening on ports 42613,44891
+
+ 0:00.70 INFO moz-http2 server started on ports 42613, 44891
+ 0:00.71 INFO node moz-http2 [stderr] (node:124775) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+
+ 0:00.71 INFO node moz-http2 [stderr] (Use `node --trace-deprecation ...` to show where the warning was created)
+
+ 0:00.71 INFO runtests.py | Running with scheme: http
+ 0:00.71 INFO runtests.py | Running with e10s: True
+ 0:00.71 INFO runtests.py | Running with fission: True
+ 0:00.71 INFO runtests.py | Running with cross-origin iframes: False
+ 0:00.71 INFO runtests.py | Running with socketprocess_e10s: False
+ 0:00.71 INFO runtests.py | Running http tests: start.
+
+ 0:00.73 WARNING Found 'firefox' running before starting test browser!
+ 0:00.73 WARNING {'cmdline': ['/usr/lib64/firefox/firefox'], 'pid': 7996, 'username': 'luap', 'name': 'firefox', 'ppid': 5110}
+
+ 0:00.73 INFO Marionette port 2828 already in use, falling back to port 45567
+ 0:00.73 INFO Application command: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/zen -marionette -foreground -profile /tmp/tmpc6kcjplu.mozrunner
+ 0:00.76 INFO runtests.py | Application pid: 124784
+ 0:00.76 Started process `GECKO(124784)`
+ 0:00.78 GECKO(124784) *** You are running in headless mode.
+ 0:00.83 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_socket_pid124823.log
+ 0:00.98 GECKO(124784) 1793389875015	Marionette	INFO	Marionette enabled
+ 0:00.98 GECKO(124784) 1793389875016	Marionette	TRACE	Received observer notification final-ui-startup
+ 0:00.98 GECKO(124784) 1793389875016	Marionette	DEBUG	Initializing Marionette
+ 0:01.04 GECKO(124784) console.error: "Warning: unrecognized command line flag" "-foreground"
+ 0:01.04 GECKO(124784) JavaScript warning: moz-src:///browser/components/aiwindow/ui/modules/AIWindow.sys.mjs, line 414: unreachable code after return statement
+ 0:01.05 GECKO(124784) 1793389875089	Marionette	INFO	Listening on port 45567
+ 0:01.05 GECKO(124784) 1793389875090	Marionette	DEBUG	Marionette is listening
+ 0:01.07 GECKO(124784) 1793389875104	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:37652
+ 0:01.09 GECKO(124784) 1793389875124	Marionette	DEBUG	Closed connection 0
+ 0:01.09 GECKO(124784) 1793389875124	Marionette	DEBUG	Accepted connection 1 from 127.0.0.1:37668
+ 0:01.14 GECKO(124784) 1793389875177	Marionette	DEBUG	1 -> [0,1,"WebDriver:NewSession",{"strictFileInteractability":true}]
+ 0:01.14 GECKO(124784) 1793389875182	Marionette	DEBUG	Waiting for initial application window
+ 0:01.15 GECKO(124784) console.debug: "ZenSessionManager:" "Initializing session manager"
+ 0:01.15 GECKO(124784) console.debug: "ZenSessionManager:" "Session file path:" "/tmp/tmpc6kcjplu.mozrunner/zen-sessions.jsonlz4"
+ 0:01.15 GECKO(124784) console.debug: "ZenSessionManager:" "Reading Zen session file from disk"
+ 0:01.18 GECKO(124784) JavaScript warning: chrome://browser/content/tabbrowser/drag-and-drop.js, line 1587: unreachable code after return statement
+ 0:01.19 GECKO(124784) JavaScript warning: moz-src:///browser/components/tabbrowser/Tabbrowser.sys.mjs, line 539: unreachable code after return statement
+ 0:01.21 GECKO(124784) JavaScript warning: chrome://browser/content/tabbrowser/tabs.mjs, line 1042: unreachable code after return statement
+ 0:01.24 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid124933.log
+ 0:01.24 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid124933.log
+ 0:01.25 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_rdd_pid124941.log
+ 0:01.25 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_rdd_pid124941.log
+ 0:01.31 GECKO(124784) console.error: "Failed to read backup file /tmp/tmpc6kcjplu.mozrunner/zen-sessions-backup/clean.jsonlz4" (new NotFoundError("Could not open `/tmp/tmpc6kcjplu.mozrunner/zen-sessions-backup/clean.jsonlz4': file does not exist (NS_ERROR_FILE_NOT_FOUND)", (void 0)))
+ 0:01.31 GECKO(124784) console.debug: "ZenSessionManager:" "No spaces data found in session file, running migration" [object Object]
+ 0:01.32 GECKO(124784) console.error: "Failed to read spaces data from database during migration" (new Error("Error(s) encountered during statement execution: no such table: zen_workspaces", "resource://gre/modules/Sqlite.sys.mjs", 1193))
+ 0:01.32 GECKO(124784) console.error: "Failed to read pins data from database during migration" (new Error("Error(s) encountered during statement execution: no such table: zen_pins", "resource://gre/modules/Sqlite.sys.mjs", 1193))
+ 0:01.34 GECKO(124784) console.debug: "ZenSessionManager:" "Restoring tabs from Places DB after migration" null (void 0) [object Object]
+ 0:01.34 GECKO(124784) console.debug: "ZenSessionManager:" "Build ID has changed since last session, not restoring only pinned tabs" ({buildId:"20261030202514", lastBuildId:""})
+ 0:01.34 GECKO(124784) console.debug: "ZenSessionManager:" "Saving windata state after migration"
+ 0:01.34 GECKO(124784) console.debug: "ZenSessionManager:" "Saving Zen session data with 0 tabs"
+ 0:01.37 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/tabbrowser/tabs.mjs:46:10
+ 0:01.40 GECKO(124784) JavaScript warning: moz-src:///browser/components/urlbar/UrlbarMuxerStandard.sys.mjs, line 936: unreachable code after return statement
+ 0:01.49 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid124994.log
+ 0:01.49 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid124994.log
+ 0:01.50 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:70:12
+ 0:01.50 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:71:12
+ 0:01.50 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:72:16
+ 0:01.50 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! moz-src:///zen/library/ZenLibraryWidget.sys.mjs:73:16
+ 0:01.66 GECKO(124784) [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+ 0:01.77 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! resource:///modules/zen/ZenSpace.mjs:607:12
+ 0:01.77 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! resource:///modules/zen/ZenSpace.mjs:610:12
+ 0:01.78 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125026.log
+ 0:01.78 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125026.log
+ 0:01.84 GECKO(124784) console.debug: "[gZenWorkspaces]:" "Changing workspace to" "{a5d6053e-b0ba-4153-b5dc-e2ae0d774506}"
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:730:13
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:858:14
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:862:30
+ 0:01.85 GECKO(124784) [Parent 124784: Main Thread]: I/SlowChromeEvent Please do not use mouseenter/leave events in chrome. They are slower than mouseover/out! chrome://browser/content/zen-components/ZenCompactMode.mjs:919:13
+ 0:01.90 GECKO(124784) console.warn: "[ZenMods]: No enabled Zen mods."
+ 0:02.08 GECKO(124784) console.error: services.settings:
+ 0:02.08 GECKO(124784)   Message: EmptyDatabaseError: "main/nimbus-desktop-experiments" has not been synced yet
+ 0:02.08 GECKO(124784)   Stack:
+ 0:02.09 GECKO(124784)     EmptyDatabaseError@resource://services-settings/Database.sys.mjs:19:5
+ 0:02.09 GECKO(124784) list@resource://services-settings/Database.sys.mjs:96:13
+ 0:02.09 GECKO(124784) async*get@resource://services-settings/RemoteSettingsClient.sys.mjs:570:28
+ 0:02.09 GECKO(124784) async*getRecipesFromCollection/recipes<@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:792:16
+ 0:02.09 GECKO(124784) #raceShutdown@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:748:34
+ 0:02.09 GECKO(124784) getRecipesFromCollection@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:791:41
+ 0:02.09 GECKO(124784) getRecipesFromAllCollections@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:647:39
+ 0:02.09 GECKO(124784) #updateImpl@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:517:33
+ 0:02.09 GECKO(124784) async*updateRecipes/<@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:434:55
+ 0:02.09 GECKO(124784) LockGrantedCallback*withUpdateLock@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:370:26
+ 0:02.09 GECKO(124784) updateRecipes@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:434:18
+ 0:02.09 GECKO(124784) enable@resource://nimbus/lib/RemoteSettingsExperimentLoader.sys.mjs:322:16
+ 0:02.09 GECKO(124784) #init@resource://nimbus/ExperimentAPI.sys.mjs:325:28
+ 0:02.09 GECKO(124784) async*init@resource://nimbus/ExperimentAPI.sys.mjs:264:49
+ 0:02.09 GECKO(124784) finishInit@resource://normandy/Normandy.sys.mjs:80:30
+ 0:02.09 GECKO(124784) init@resource://normandy/Normandy.sys.mjs:58:16
+ 0:02.09 GECKO(124784) async*fn@resource://gre/modules/BrowserUtils.sys.mjs:83:33
+ 0:02.09 GECKO(124784) callSingleListener@resource://gre/modules/BrowserUtils.sys.mjs:778:15
+ 0:02.09 GECKO(124784) callModulesFromCategory@resource://gre/modules/BrowserUtils.sys.mjs:829:23
+ 0:02.09 GECKO(124784) BG__beforeUIStartup@moz-src:///browser/components/BrowserGlue.sys.mjs:423:23
+ 0:02.09 GECKO(124784) BG_observe@moz-src:///browser/components/BrowserGlue.sys.mjs:205:14
+ 0:02.09 GECKO(124784) JavaScript error: moz-src:///browser/components/sessionstore/SessionStartup.sys.mjs, line 259: TypeError: can't access property "length", initialState.savedGroups is undefined
+ 0:02.21 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_utility_pid125083.log
+ 0:02.21 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_utility_pid125083.log
+ 0:02.23 GECKO(124784) 1793389876264	Marionette	TRACE	Received observer notification browser-idle-startup-tasks-finished
+ 0:02.40 GECKO(124784) 1793389876435	RemoteAgent	TRACE	[10] ProgressListener Start: expectNavigation=false resolveWhenStarted=false unloadTimeout=5000 waitForExplicitStart=false
+ 0:02.40 GECKO(124784) 1793389876435	RemoteAgent	TRACE	[10] ProgressListener Setting unload timer (5000ms)
+ 0:02.40 GECKO(124784) 1793389876436	RemoteAgent	TRACE	[10] Wait for initial navigation: isUncommittedInitial=false, isLoadingDocument=false
+ 0:02.40 GECKO(124784) 1793389876436	RemoteAgent	TRACE	[10] Document already finished loading: about:blank
+ 0:02.40 GECKO(124784) 1793389876436	RemoteAgent	TRACE	[10] ProgressListener Stop: has error=false url=about:blank
+ 0:02.41 GECKO(124784) 1793389876446	Marionette	DEBUG	1 <- [1,1,null,{"sessionId":"89e6a49f-2bbd-4a51-8e4c-b1f350700d71","capabilities":{"acceptInsecureCerts":false,"browserName":"zen","browserVersion":"1.0.0","platformName":"linux","setWindowRect":true,"unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:159.0) Gecko/20100101 Firefox/159.0","moz:buildID":"20261030202514","moz:headless":true,"moz:platformVersion":"7.2.13-200.fc44.x86_64","moz:processID":124784,"moz:profile":"/tmp/tmpc6kcjplu.mozrunner","moz:shutdownTimeout":73000,"pageLoadStrategy":"normal","timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"strictFileInteractability":true,"moz:accessibilityChecks":false,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{}}}]
+ 0:02.42 GECKO(124784) 1793389876455	Marionette	DEBUG	1 -> [0,2,"Addon:Install",{"temporary":false,"path":"/tmp/tmp7ssgc5n4.zip"}]
+ 0:02.42 GECKO(124784) console.warn: "[ZenMods]: No enabled Zen mods."
+ 0:02.48 GECKO(124784) 1793389876515	Marionette	DEBUG	1 <- [1,2,null,{"value":"special-powers@mozilla.org"}]
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125105.log
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125105.log
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125108.log
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125108.log
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125114.log
+ 0:02.48 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125114.log
+ 0:02.49 GECKO(124784) 1793389876530	Marionette	DEBUG	1 -> [0,3,"Addon:Install",{"temporary":false,"path":"/tmp/tmprvm2t8h6.zip"}]
+ 0:02.51 GECKO(124784) 1793389876544	Marionette	DEBUG	1 <- [1,3,null,{"value":"mochikit@mozilla.org"}]
+ 0:02.51 GECKO(124784) 1793389876544	Marionette	DEBUG	1 -> [0,4,"Marionette:GetContext",{}]
+ 0:02.51 GECKO(124784) 1793389876545	Marionette	DEBUG	1 <- [1,4,null,{"value":"content"}]
+ 0:02.51 GECKO(124784) 1793389876545	Marionette	DEBUG	1 -> [0,5,"Marionette:SetContext",{"value":"chrome"}]
+ 0:02.51 GECKO(124784) 1793389876545	Marionette	DEBUG	1 <- [1,5,null,{"value":null}]
+ 0:02.51 GECKO(124784) 1793389876547	Marionette	DEBUG	1 -> [0,6,"WebDriver:ExecuteScript",{"script":"/* This Source Code Form is subject to the terms of the Mozilla Public\n * License, v. 2.0. If a copy of the MPL was not distr ... \n// the flavor and url to load.\nlet ev = new CustomEvent(\"mochitest-load\", { detail: [flavor, url] });\nwin.dispatchEvent(ev);","args":[{"flavor":"browser-chrome","testUrl":"about:blank"}],"newSandbox":true,"sandbox":"default","line":2382,"filename":"_tests/testing/mochitest/runtests.py"}]
+ 0:02.51 GECKO(124784) 1793389876550	RemoteAgent	TRACE	WebDriverProcessData actor created for PID 124784
+ 0:02.51 GECKO(124784) 1793389876550	Marionette	TRACE	[1] MarionetteCommands actor created for window id 2
+ 0:02.52 GECKO(124784) 1793389876563	Marionette	TRACE	Remoteness change detected. Set new top-level browsing context to 10
+ 0:02.53 GECKO(124784) 1793389876565	Marionette	DEBUG	1 <- [1,6,null,{"value":null}]
+ 0:02.54 GECKO(124784) 1793389876575	Marionette	DEBUG	1 -> [0,7,"Marionette:SetContext",{"value":"content"}]
+ 0:02.54 GECKO(124784) 1793389876575	Marionette	DEBUG	1 <- [1,7,null,{"value":null}]
+ 0:02.54 GECKO(124784) 1793389876576	Marionette	DEBUG	1 -> [0,8,"WebDriver:DeleteSession",{}]
+ 0:02.54 GECKO(124784) 1793389876576	Marionette	TRACE	[1] MarionetteCommands actor destroyed for window id 2
+ 0:02.54 GECKO(124784) 1793389876578	Marionette	DEBUG	1 <- [1,8,null,{"value":null}]
+ 0:02.54 INFO runtests.py | Waiting for browser...
+ 0:02.54 GECKO(124784) 1793389876578	Marionette	DEBUG	Closed connection 1
+ 0:02.58 INFO *** Start BrowserChrome Test Results ***
+ 0:02.59 INFO checking for open sidebars
+ 0:02.59 INFO checking window state
+ 0:02.68 TEST_START: zen/tests/compact_mode/browser_compact_mode_toggle_position.js
+ 0:02.68 INFO Entering test test_compact_mode_toggle_position
+ 0:02.72 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125215.log
+ 0:02.72 GECKO(124784) ### XPCOM_MEM_BLOAT_LOG defined -- logging bloat/leaks to /tmp/tmpc6kcjplu.mozrunner/runtests_leaks_tab_pid125215.log
+ 0:02.74 INFO Sidebar width 240, window controls hidden: true
+ 0:02.74 PASS test_compact_mode_toggle_position - The compact-mode toggle is visible - 30 > 0
+ 0:03.00 PASS test_compact_mode_toggle_position - The toggle remains visible in compact mode - 30 > 0
+ 0:03.00 FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 164 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+ 0:03.22 PASS test_compact_mode_toggle_position - Reopening the sidebar restores the toggle position - 0 <= 1
+ 0:03.25 INFO Sidebar width 320, window controls hidden: true
+ 0:03.26 PASS test_compact_mode_toggle_position - The compact-mode toggle is visible - 30 > 0
+ 0:03.49 PASS test_compact_mode_toggle_position - The toggle remains visible in compact mode - 30 > 0
+ 0:03.49 FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 244 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+ 0:03.70 PASS test_compact_mode_toggle_position - Reopening the sidebar restores the toggle position - 0 <= 1
+ 0:03.74 INFO Sidebar width 240, window controls hidden: false
+ 0:03.74 PASS test_compact_mode_toggle_position - The compact-mode toggle is visible - 30 > 0
+ 0:03.97 PASS test_compact_mode_toggle_position - The toggle remains visible in compact mode - 30 > 0
+ 0:03.97 FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 164 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+ 0:04.19 PASS test_compact_mode_toggle_position - Reopening the sidebar restores the toggle position - 0 <= 1
+ 0:04.22 INFO Sidebar width 320, window controls hidden: false
+ 0:04.23 PASS test_compact_mode_toggle_position - The compact-mode toggle is visible - 30 > 0
+ 0:04.45 PASS test_compact_mode_toggle_position - The toggle remains visible in compact mode - 30 > 0
+ 0:04.45 FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 244 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+ 0:04.59 PASS test_compact_mode_toggle_position - Reopening the sidebar restores the toggle position - 0 <= 1
+ 0:04.59 INFO Leaving test test_compact_mode_toggle_position
+ 0:04.62 INFO checking for open popups
+ 0:04.98 GECKO(124784) MEMORY STAT vsizeMaxContiguous not supported in this build configuration.
+ 0:04.98 GECKO(124784) MEMORY STAT | vsize 11459MB | residentFast 384MB | heapAllocated 271MB
+ 0:04.98 INFO checking for open sidebars
+ 0:04.98 INFO checking window state
+ 0:04.98 TEST_END: Test FAIL, expected PASS. Subtests passed 12/16. Unexpected 4
+ 0:06.00 GECKO(124784) Completed ShutdownLeaks collections in process 125026
+ 0:06.00 GECKO(124784) Completed ShutdownLeaks collections in process 125105
+ 0:06.02 GECKO(124784) Completed ShutdownLeaks collections in process 124933
+ 0:06.03 GECKO(124784) Completed ShutdownLeaks collections in process 124994
+ 0:06.19 GECKO(124784) Completed ShutdownLeaks collections in process 124784
+ 0:06.19 INFO TEST-START | Shutdown
+ 0:06.19 INFO Browser Chrome Test Summary
+ 0:06.19 INFO Passed:  12
+ 0:06.19 INFO Failed:  4
+ 0:06.19 INFO Todo:    0
+ 0:06.19 INFO Mode:    e10s
+ 0:06.19 INFO *** End BrowserChrome Test Results ***
+ 0:06.39 GECKO(124784) console.debug: "ZenSessionManager:" "Skipping blank tab data" ({entries:[{url:"about:blank", title:"about:blank", cacheKey:0, ID:12, docshellUUID:"{92465da3-e068-49a3-bdaf-10fa22b189f1}", resultPrincipalURI:null, principalToInherit_base64:"{\"0\":{\"0\":\"moz-nullprincipal:{4c8f88c2-e142-4912-998a-6a8037345c0a}\"}}", hasUserInteraction:false, triggeringPrincipal_base64:"{\"3\":{}}", docIdentifier:15, transient:false, navigationKey:"{a3f68ea5-1cf2-47aa-b0e2-71643d928623}", navigationId:"{8a9bc33e-d43c-476a-887c-acbeb89cb0a9}"}], lastAccessed:1793389880426, hidden:false, zenWorkspace:"{a5d6053e-b0ba-4153-b5dc-e2ae0d774506}", zenSyncId:"1793389875884-8c3f9500-9aa8-43e7-8190-d3c2a003a6a2", zenEssential:false, pinned:false, zenDefaultUserContextId:null, zenPinnedIcon:null, zenIsEmpty:false, zenStaticLabel:(void 0), zenHasStaticIcon:false, zenGlanceId:null, zenIsGlance:false, _zenPinnedInitialState:(void 0), _zenIsActiveTab:true, zenLiveFolderItemId:null, searchMode:null, userContextId:0, attributes:{}, index:1, requestedIndex:0, image:null})
+ 0:06.40 GECKO(124784) console.debug: "ZenSessionManager:" "Saving Zen session data with 1 tabs"
+ 0:06.40 GECKO(124784) 1793389880434	Marionette	TRACE	Received observer notification quit-application
+ 0:06.40 GECKO(124784) 1793389880434	Marionette	TRACE	Application is shutting down with reason: "shutdown"
+ 0:06.40 GECKO(124784) 1793389880434	Marionette	INFO	Stopped listening on port 45567
+ 0:06.41 GECKO(124784) 1793389880449	Marionette	DEBUG	Marionette stopped listening
+ 0:06.50 GECKO(124784) 1793389880533	Marionette	TRACE	Received observer notification xpcom-shutdown
+ 0:06.51 GECKO(124784) 1793389880544	Marionette	TRACE	Received observer notification xpcom-shutdown-threads
+ 0:06.55 Main app process: exit 0
+ 0:06.55 INFO runtests.py | Main app process exited normally
+ 0:06.55 INFO runtests.py | Application ran for: 0:00:05.815468
+ 0:06.55 INFO zombiecheck | Reading PID log: /tmp/tmpfz3joih8pidlog
+ 0:06.55 INFO ==> process 124784 launched child process 124823
+ 0:06.55 INFO ==> process 124784 launched child process 124925
+ 0:06.55 INFO zombiecheck | Checking for orphan process with PID: 124925
+ 0:06.55 INFO zombiecheck | Checking for orphan process with PID: 124823
+ 0:06.55 INFO runtests.py | Running http tests: end. status: 0
+ 0:06.55 INFO Stopping web server
+ 0:06.55 INFO Server shut down.
+ 0:06.55 INFO Web server killed.
+ 0:06.55 INFO Stopping web socket server
+ 0:06.55 INFO Stopping ssltunnel
+ 0:06.55 WARNING leakcheck | refcount logging is off, so leaks can't be detected!
+ 0:06.57 INFO Buffered messages finished
+TEST-INFO | checking window state
+Browser Chrome Test Summary
+	Passed: 12
+	Failed: 4
+	Todo: 0
+	Retried: 0
+	Mode: e10s
+*** End BrowserChrome Test Results ***
+ 0:06.57 INFO Buffered messages finished
+ 0:06.57 SUITE_END
+ 0:06.57 
+Overall Summary
+===============
+
+mochitest-browser
+~~~~~~~~~~~~~~~~~
+Ran 17 checks (16 subtests, 1 tests)
+Expected results: 12
+Unexpected results: 5
+  test: 1 (1 fail)
+  subtest: 4 (4 fail)
+
+Error Summary
+-------------
+zen/tests/compact_mode/browser_compact_mode_toggle_position.js
+  FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 164 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+  FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 244 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+  FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 164 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+  FAIL test_compact_mode_toggle_position - The right sidebar toggle does not shift horizontally - 244 <= 1
+chrome://mochitests/content/browser/zen/tests/compact_mode/browser_compact_mode_toggle_position.js:test_compact_mode_toggle_position:67
+async*chrome://mochikit/content/browser-test.js:handleTask:1575
+chrome://mochikit/content/browser-test.js:_runTaskBasedTest:1665
+chrome://mochikit/content/browser-test.js:Tester_execTest:1818
+chrome://mochikit/content/browser-test.js:nextTest/<:1555
+chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus/<:1060
+promise callback*chrome://mochikit/content/tests/SimpleTest/SimpleTest.js:SimpleTest.waitForFocus:1059
+chrome://mochikit/content/browser-test.js:nextTest:1493
+chrome://mochikit/content/browser-test.js:Tester_start/<:540
+promise callback*chrome://mochikit/content/browser-test.js:Tester_start:538
+chrome://mochikit/content/browser-harness.xhtml:createTester/</<:265
+  FAIL zen/tests/compact_mode/browser_compact_mode_toggle_position.js - finished in 2300ms

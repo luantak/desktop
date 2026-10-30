@@ -1,0 +1,344 @@
+
+> zen-desktop@1.0.0 build:ui
+> surfer build --ui
+
+00:00:00 Dynamic config 'brand not set, defaulting to 'unofficial'
+00:00:00 Applying mozconfig...
+00:00:00 Dynamic config 'brand not set, defaulting to 'unofficial'
+00:00:00 Dynamic config 'buildMode not set, defaulting to 'dev'
+00:00:00 Dynamic config 'brand not set, defaulting to 'unofficial'
+00:00:00 Dynamic config 'buildMode not set, defaulting to 'dev'
+00:00:00 Building config based on a dev mode
+00:00:00 Config for this `linux` build:
+00:00:00 	--with-app-name=zen
+00:00:00 	--with-app-basename=Zen
+00:00:00 	--with-l10n-base="${topsrcdir}/browser/locales"
+00:00:00 	MOZ_APP_BASENAME=Zen
+00:00:00 	MOZ_BRANDING_DIRECTORY=browser/branding/unofficial
+00:00:00 	MOZ_OFFICIAL_BRANDING_DIRECTORY=browser/branding/unofficial
+00:00:00 	--with-distribution-id=app.zen-browser
+00:00:00 	MOZ_SOURCE_REPO=https://github.com/zen-browser/desktop
+00:00:00 	MOZ_SOURCE_CHANGESET=8b98aa2e5c468c41be676a818105022f6d7f3ab9
+00:00:00 	MOZ_INCLUDE_SOURCE_INFO=1
+00:00:00 	--enable-application=browser
+00:00:00 	--with-unsigned-addon-scopes=app,system
+00:00:00 	MOZ_DATA_REPORTING=
+00:00:00 	MOZ_SERVICES_HEALTHREPORT=
+00:00:00 	MOZ_TELEMETRY_REPORTING=
+00:00:00 	MOZ_DATA_REPORTING=
+00:00:00 	MOZ_TELEMETRY_REPORTING=
+00:00:00 	MOZ_REQUIRE_SIGNING=
+00:00:00 	MOZ_REQUIRE_SIGNING=
+00:00:00 	MOZ_STDCXX_COMPAT=1
+00:00:00 	--enable-bootstrap
+00:00:00 	--disable-debug-symbols
+00:00:00 	--enable-linker=lld
+00:00:00 	MOZ_MAKE_FLAGS="-j12"
+00:00:00 	--disable-debug
+00:00:00 	--with-branding=browser/branding/unofficial
+00:00:00 	--enable-update-channel=unofficial
+00:00:00 	ACCEPTED_MAR_CHANNEL_IDS=unofficial
+00:00:00 	MAR_CHANNEL_ID=unofficial
+00:00:00 	ACCEPTED_MAR_CHANNEL_IDS=unofficial
+00:00:00 	ZEN_FIREFOX_VERSION=159.0
+00:00:00 	MOZ_APPUPDATE_HOST=updates.zen-browser.app
+00:00:00 Starting build...
+00:00:00 Building for "linux"...
+ WARNING If you get any dependency errors, try running |surfer bootstrap|.
+00:00:00 Dynamic config 'brand not set, defaulting to 'unofficial'
+00:00:00 Dynamic config 'brand not set, defaulting to 'unofficial'
+00:00:00 W Warnings in third-party code are being suppressed from the terminal output. Use --show-all-warnings or --verbose to see them.
+00:00:00 W All warnings will still be dumped to /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/.mozbuild/logs/build/warnings_*.json at the end of the build.
+00:00:00 Clobber not needed.
+00:00:00 /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/config.status is out of date with respect to /home/luap/zen-desktop/engine/browser/config/version.txt
+00:00:00 Using Python 3.14.8 from /home/luap/.mozbuild/srcdirs/engine-3257c366e71b/_virtualenvs/build/bin/python
+00:00:00 Adding configure options from /home/luap/zen-desktop/engine/mozconfig
+00:00:00   --with-app-name=zen
+00:00:00   --with-app-basename=Zen
+00:00:00   --with-l10n-base=/home/luap/zen-desktop/engine/browser/locales
+00:00:00   --with-distribution-id=app.zen-browser
+00:00:00   --enable-application=browser
+00:00:00   --with-unsigned-addon-scopes=app,system
+00:00:00   MOZ_DATA_REPORTING=
+00:00:00   MOZ_TELEMETRY_REPORTING=
+00:00:00   --enable-bootstrap
+00:00:00   --disable-debug-symbols
+00:00:00   --enable-linker=lld
+00:00:00   --disable-debug
+00:00:00   --with-branding=browser/branding/unofficial
+00:00:00   --enable-update-channel=unofficial
+00:00:00   MOZ_REQUIRE_SIGNING=
+00:00:00   MOZ_SOURCE_CHANGESET=8b98aa2e5c468c41be676a818105022f6d7f3ab9
+00:00:00   MOZ_APP_BASENAME=Zen
+00:00:00   MOZ_BRANDING_DIRECTORY=browser/branding/unofficial
+00:00:00   MOZ_OFFICIAL_BRANDING_DIRECTORY=browser/branding/unofficial
+00:00:00   MOZ_APPUPDATE_HOST=updates.zen-browser.app
+00:00:00   MOZ_SOURCE_REPO=https://github.com/zen-browser/desktop
+00:00:00   MOZ_INCLUDE_SOURCE_INFO=1
+00:00:00   ZEN_FIREFOX_VERSION=159.0
+00:00:00   MOZ_STDCXX_COMPAT=1
+00:00:00 checking for vcs source checkout... git
+00:00:00 checking for a shell... /usr/bin/sh
+00:00:01 checking for host system type... x86_64-pc-linux-gnu
+00:00:01 checking for target system type... x86_64-pc-linux-gnu
+00:00:01 checking whether cross compiling... no
+00:00:01 checking if configuration file confvars.sh exists... /home/luap/zen-desktop/engine/browser/confvars.sh
+00:00:01 checking if configuration file configure.sh exists... /home/luap/zen-desktop/engine/browser/branding/unofficial/configure.sh
+00:00:02 checking for bootstrappable toolchains... 240 found
+00:00:02 checking for the target C compiler... /home/luap/.mozbuild/clang/bin/clang
+00:00:02 checking for ccache... not found
+00:00:02 Using target sysroot in /home/luap/.mozbuild/sysroot-x86_64-linux-gnu
+00:00:02 checking whether the target C compiler can be used... yes
+00:00:02 checking for the target C++ compiler... /home/luap/.mozbuild/clang/bin/clang++
+00:00:02 checking whether the target C++ compiler can be used... yes
+00:00:02 checking for unwind.h... yes
+00:00:02 checking for target linker... lld
+00:00:02 checking for _Unwind_Backtrace... yes
+00:00:02 checking for Python 3... /home/luap/.mozbuild/srcdirs/engine-3257c366e71b/_virtualenvs/build/bin/python (3.14.8)
+00:00:02 checking for git... /usr/bin/git
+00:00:02 checking for Git version... 2.56.0
+00:00:02 Using host sysroot in /home/luap/.mozbuild/sysroot-x86_64-linux-gnu
+00:00:02 checking the target C compiler version... 22.1.8
+00:00:02 checking the target C compiler works... yes
+00:00:02 checking the target C++ compiler version... 22.1.8
+00:00:02 checking the target C++ compiler works... yes
+00:00:02 checking for the host C compiler... /home/luap/.mozbuild/clang/bin/clang
+00:00:02 checking whether the host C compiler can be used... yes
+00:00:02 checking the host C compiler version... 22.1.8
+00:00:02 checking the host C compiler works... yes
+00:00:02 checking for the host C++ compiler... /home/luap/.mozbuild/clang/bin/clang++
+00:00:02 checking whether the host C++ compiler can be used... yes
+00:00:02 checking the host C++ compiler version... 22.1.8
+00:00:02 checking the host C++ compiler works... yes
+00:00:02 checking for host linker... lld
+00:00:02 checking for 64-bit OS... yes
+00:00:02 checking for new enough STL headers from libstdc++... yes
+00:00:02 checking for __thread keyword for TLS variables... yes
+00:00:02 checking for the assembler... /home/luap/.mozbuild/clang/bin/clang
+00:00:02 checking for llvm-objdump... /home/luap/.mozbuild/clang/bin/llvm-objdump
+00:00:02 checking for ar... /home/luap/.mozbuild/clang/bin/llvm-ar
+00:00:02 checking whether ar supports response files... yes
+00:00:02 checking for host_ar... /home/luap/.mozbuild/clang/bin/llvm-ar
+00:00:02 checking for nm... /home/luap/.mozbuild/clang/bin/llvm-nm
+00:00:02 checking for -mavxvnni support... yes
+00:00:02 checking for -mavx512bw support... yes
+00:00:02 checking for -mavx512vnni support... yes
+00:00:02 checking for pkg_config... /home/luap/.mozbuild/pkgconf/pkg-config
+00:00:02 checking for pkg-config version... 3.0.7
+00:00:02 checking whether pkg-config is pkgconf... yes
+00:00:02 checking for strndup... yes
+00:00:02 checking for posix_memalign... yes
+00:00:02 checking for memalign... yes
+00:00:02 checking for malloc_usable_size... yes
+00:00:02 checking for malloc.h... yes
+00:00:02 checking whether malloc_usable_size definition can use const argument... no
+00:00:02 checking for stdint.h... yes
+00:00:02 checking for inttypes.h... yes
+00:00:02 checking for alloca.h... yes
+00:00:02 checking for sys/byteorder.h... no
+00:00:02 checking for getopt.h... yes
+00:00:02 checking for unistd.h... yes
+00:00:02 checking for nl_types.h... yes
+00:00:02 checking for cpuid.h... yes
+00:00:02 checking for fts.h... yes
+00:00:02 checking for sys/statvfs.h... yes
+00:00:02 checking for sys/statfs.h... yes
+00:00:02 checking for sys/vfs.h... yes
+00:00:02 checking for sys/mount.h... yes
+00:00:02 checking for sys/quota.h... yes
+00:00:02 checking for linux/quota.h... yes
+00:00:02 checking for linux/if_addr.h... yes
+00:00:02 checking for linux/rtnetlink.h... yes
+00:00:02 checking for sys/queue.h... yes
+00:00:02 checking for sys/types.h... yes
+00:00:02 checking for netinet/in.h... yes
+00:00:02 checking for byteswap.h... yes
+00:00:02 checking for memfd_create in sys/mman.h... no
+00:00:02 checking for clock_gettime(CLOCK_MONOTONIC)... yes
+00:00:02 checking for res_ninit()... yes
+00:00:02 checking for dladdr... no
+00:00:02 checking for dladdr in -ldl... yes
+00:00:02 checking for dlfcn.h... yes
+00:00:02 checking for dlopen in -ldl... yes
+00:00:02 checking for gethostbyname_r in -lc_r... no
+00:00:02 checking for socket in -lsocket... no
+00:00:02 checking for pthread_create... no
+00:00:02 checking for pthread_create in -lpthread... yes
+00:00:02 checking for pthread.h... yes
+00:00:02 checking whether the C compiler supports -pthread... yes
+00:00:02 checking whether 64-bits std::atomic requires -latomic... no
+00:00:02 checking whether the C++ compiler supports -Wdeprecated-literal-operator... yes
+00:00:02 checking whether the C compiler supports -Winvalid-utf8... yes
+00:00:02 checking whether the C++ compiler supports -Winvalid-utf8... yes
+00:00:02 checking whether the C compiler supports -Wformat... yes
+00:00:02 checking whether the C++ compiler supports -Wformat... yes
+00:00:02 checking whether the C++ compiler supports -fno-sized-deallocation... yes
+00:00:02 checking whether the C++ compiler supports -fno-aligned-new... yes
+00:00:02 checking whether we're trying to statically link with libstdc++... no
+00:00:02 checking whether the C compiler supports -fdiagnostics-absolute-paths... yes
+00:00:02 checking whether the C++ compiler supports -fdiagnostics-absolute-paths... yes
+00:00:02 checking whether the linker supports Identical Code Folding... yes
+00:00:02 checking whether the C linker supports -Wl,--build-id=sha1... yes
+00:00:02 checking whether the C assembler supports -Wa,--noexecstack... yes
+00:00:02 checking whether the C linker supports -Wl,-z,noexecstack... yes
+00:00:02 checking whether the C linker supports -Wl,-z,text... yes
+00:00:02 checking whether the C linker supports -Wl,-z,relro... yes
+00:00:02 checking whether the C linker supports -Wl,-z,now... yes
+00:00:02 checking whether the C linker supports -Wl,-z,nocopyreloc... yes
+00:00:02 checking whether the C assembler supports -fPIC... yes
+00:00:02 checking whether the C compiler supports -fPIC... yes
+00:00:02 checking whether the C++ compiler supports -fPIC... yes
+00:00:02 checking what kind of list files are supported by the linker... linkerlist
+00:00:02 checking for llvm_profdata... /home/luap/.mozbuild/clang/bin/llvm-profdata
+00:00:02 checking whether the linker supports call-graph profile sorting... yes
+00:00:02 checking for readelf... /home/luap/.mozbuild/clang/bin/llvm-readelf
+00:00:02 checking for objcopy... /home/luap/.mozbuild/clang/bin/llvm-objcopy
+00:00:02 checking for alsa... yes
+00:00:02 checking MOZ_ALSA_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/alsa
+00:00:02 checking MOZ_ALSA_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lasound
+00:00:02 checking for libpulse... yes
+00:00:02 checking MOZ_PULSEAUDIO_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include -D_REENTRANT
+00:00:02 checking MOZ_PULSEAUDIO_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lpulse
+00:00:02 checking for rustc... /home/luap/.cargo/bin/rustc
+00:00:02 checking for cargo... /home/luap/.cargo/bin/cargo
+00:00:02 Actually using '/home/luap/.rustup/toolchains/1.95.0-x86_64-unknown-linux-gnu/bin/rustc' as rustc
+00:00:02 Actually using '/home/luap/.rustup/toolchains/1.95.0-x86_64-unknown-linux-gnu/bin/cargo' as cargo
+00:00:02 checking rustc version... 1.95.0
+00:00:02 checking cargo version... 1.95.0
+00:00:02 checking for rust host triplet... x86_64-unknown-linux-gnu
+00:00:02 checking for rust target triplet... x86_64-unknown-linux-gnu
+00:00:02 checking for rustdoc... /home/luap/.cargo/bin/rustdoc
+00:00:02 checking for cbindgen... /home/luap/.mozbuild/cbindgen/cbindgen
+00:00:02 checking for rustfmt... /home/luap/.cargo/bin/rustfmt
+00:00:02 checking for clang for bindgen... /home/luap/.mozbuild/clang/bin/clang++
+00:00:02 checking for libclang for bindgen... /home/luap/.mozbuild/clang/lib/libclang.so
+00:00:02 checking that libclang is new enough... yes
+00:00:02 checking bindgen cflags... ['-x', 'c++', '-fno-sized-deallocation', '-fno-aligned-new', '-DTRACING=1', '-DIMPL_LIBXUL', '-DMOZILLA_INTERNAL_API', '-DRUST_BINDGEN', '--sysroot', '/home/luap/.mozbuild/sysroot-x86_64-linux-gnu', '-std=gnu++20']
+00:00:02 checking for tm_zone and tm_gmtoff in struct tm... yes
+00:00:02 checking for getpagesize... yes
+00:00:02 checking for gmtime_r... yes
+00:00:02 checking for localtime_r... yes
+00:00:02 checking for gettid... no
+00:00:02 checking for setpriority... yes
+00:00:02 checking for syscall... yes
+00:00:02 checking for getc_unlocked... yes
+00:00:02 checking for pthread_getname_np... no
+00:00:02 checking for pthread_get_name_np... no
+00:00:02 checking for nl_langinfo and CODESET... yes
+00:00:02 checking for __cxa_demangle... yes
+00:00:02 checking for _getc_nolock... no
+00:00:02 checking for localeconv... yes
+00:00:02 checking for nodejs... /home/luap/.mozbuild/node/bin/node (22.16.0)
+00:00:02 checking for gtk+-wayland-3.0 >= 3.14 xkbcommon >= 0.4.1... yes
+00:00:02 checking MOZ_WAYLAND_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gtk-3.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/pango-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/cairo -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/pixman-1 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/libpng12 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gdk-pixbuf-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/atk-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/at-spi2-atk/2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/at-spi-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/dbus-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/freetype2 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/harfbuzz -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gio-unix-2.0/ -pthread -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/glib-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/glib-2.0/include
+00:00:02 checking MOZ_WAYLAND_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -latk-1.0 -lpango-1.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -lxkbcommon
+00:00:02 checking for pango >= 1.22.0... yes
+00:00:02 checking MOZ_PANGO_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/pango-1.0 -pthread -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/glib-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include
+00:00:02 checking MOZ_PANGO_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lpango-1.0 -lgobject-2.0 -lglib-2.0
+00:00:02 checking for fontconfig >= 2.7.0... yes
+00:00:02 checking _FONTCONFIG_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/freetype2
+00:00:02 checking _FONTCONFIG_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfontconfig -lfreetype
+00:00:02 checking for freetype2 >= 9.10.3... yes
+00:00:02 checking _FT2_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/freetype2
+00:00:02 checking _FT2_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype
+00:00:02 checking for tar... /usr/bin/gtar
+00:00:02 checking for unzip... /usr/bin/unzip
+00:00:02 checking for the Mozilla API key... no
+00:00:02 checking for the Google Location Service API key... no
+00:00:02 checking for the Google Safebrowsing API key... no
+00:00:02 checking for the Bing API key... no
+00:00:02 checking for the Adjust SDK key... no
+00:00:02 checking for the Leanplum SDK key... no
+00:00:02 checking for the Pocket API key... no
+00:00:02 checking for x11 xcb xcb-shm x11-xcb xext xfixes xrandr >= 1.4.0 xcomposite xcursor xdamage xi... yes
+00:00:02 checking MOZ_X11_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include
+00:00:02 checking MOZ_X11_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lxcb-shm -lX11-xcb -lXrandr -lXcomposite -lXcursor -lXdamage -lXi -lXext -lXfixes -lX11 -lxcb
+00:00:02 checking for ice sm... yes
+00:00:02 checking MOZ_X11_SM_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include
+00:00:02 checking for stat64... yes
+00:00:02 checking for lstat64... yes
+00:00:02 checking for truncate64... yes
+00:00:02 checking for statvfs64... yes
+00:00:02 checking for statvfs... yes
+00:00:02 checking for statfs64... yes
+00:00:02 checking for statfs... yes
+00:00:02 checking for lutimes... yes
+00:00:02 checking for posix_fadvise... yes
+00:00:02 checking for posix_fallocate... yes
+00:00:02 checking for eventfd... yes
+00:00:02 checking for arc4random... no
+00:00:02 checking for arc4random_buf... no
+00:00:02 checking for mallinfo... yes
+00:00:02 checking for sys/ioccom.h... no
+00:00:02 checking for execinfo.h... yes
+00:00:03 checking for sys/single_threaded.h... no
+00:00:03 checking for -z pack-relative-relocs option to ld... yes
+00:00:03 checking for nasm... /home/luap/.mozbuild/nasm/nasm
+00:00:03 checking nasm version... 3.02
+00:00:03 Using wasi sysroot in /home/luap/.mozbuild/sysroot-wasm32-wasi
+00:00:03 checking for the wasm C compiler... /home/luap/.mozbuild/clang/bin/clang
+00:00:03 checking whether the wasm C compiler can be used... yes
+00:00:03 checking the wasm C compiler version... 22.1.8
+00:00:03 checking the wasm C compiler works... yes
+00:00:03 checking the wasm C compiler can find wasi headers... yes
+00:00:03 checking the wasm C linker can find wasi libraries... yes
+00:00:03 checking for the wasm C++ compiler... /home/luap/.mozbuild/clang/bin/clang++
+00:00:03 checking whether the wasm C++ compiler can be used... yes
+00:00:03 checking the wasm C++ compiler version... 22.1.8
+00:00:03 checking the wasm C++ compiler works... yes
+00:00:03 checking the wasm C++ compiler can find wasi headers... yes
+00:00:03 checking the wasm C++ linker can find wasi libraries... yes
+00:00:03 checking for clock() in wasi sysroot... no
+00:00:03 checking for emulated clock() in wasi sysroot... yes
+00:00:03 checking for dump_syms... /home/luap/.mozbuild/dump_syms/dump_syms
+00:00:03 checking for getcontext... yes
+00:00:03 checking for gthread-2.0... yes
+00:00:03 checking MOZ_GTHREAD_CFLAGS... -pthread -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/glib-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include
+00:00:03 checking MOZ_GTHREAD_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lgthread-2.0 -pthread -lglib-2.0
+00:00:03 checking for gtk+-3.0 >= 3.14.0 gtk+-unix-print-3.0 glib-2.0 gobject-2.0 gio-unix-2.0... yes
+00:00:03 checking MOZ_GTK3_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gtk-3.0/unix-print -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gtk-3.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/pango-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/cairo -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/at-spi2-atk/2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/at-spi-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/dbus-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/harfbuzz -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/atk-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/pixman-1 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/freetype2 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/libpng12 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gdk-pixbuf-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/gio-unix-2.0/ -pthread -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/glib-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/glib-2.0/include
+00:00:03 checking MOZ_GTK3_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+00:00:03 checking for glib-2.0 >= 2.42 gobject-2.0... yes
+00:00:03 checking GLIB_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/glib-2.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include
+00:00:03 checking GLIB_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lgobject-2.0 -lglib-2.0
+00:00:03 checking for dbus-1 >= 0.60... yes
+00:00:03 checking MOZ_DBUS_CFLAGS... -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/include/dbus-1.0 -I/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu/dbus-1.0/include
+00:00:03 checking MOZ_DBUS_LIBS... -L/home/luap/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -ldbus-1
+00:00:03 checking for sin_len in struct sockaddr_in... no
+00:00:03 checking for sin_len6 in struct sockaddr_in6... no
+00:00:03 checking for sa_len in struct sockaddr... no
+00:00:03 checking for pthread_cond_timedwait_monotonic_np... no
+00:00:03 checking for 32-bits ethtool_cmd.speed... yes
+00:00:03 checking ONNX install path... /home/luap/.mozbuild/onnxruntime-x86_64-linux-gnu/libonnxruntime.so
+00:00:03 checking for valid C compiler optimization flags... yes
+00:00:03 checking for gmake... /usr/bin/gmake
+00:00:03 checking for gmake version... 4.4.1
+00:00:03 checking for watchman... not found
+00:00:03 checking for xargs... /usr/bin/xargs
+00:00:03 checking for strip... /home/luap/.mozbuild/clang/bin/llvm-strip
+00:00:03 Creating config.status
+00:00:03 Reticulating splines...
+00:00:10 Finished reading 2834 moz.build files in 1.71s
+00:00:10 Read 58 gyp files in parallel contributing 0.00s to total wall time
+00:00:10 Processed into 22357 build config descriptors in 1.54s
+00:00:10 RecursiveMake backend executed in 2.34s
+00:00:10   6142 total backend files; 0 created; 4 updated; 6138 unchanged; 0 deleted; 12 -> 2294 Makefile
+00:00:10 FasterMake backend executed in 0.15s
+00:00:10   96 total backend files; 0 created; 2 updated; 94 unchanged; 0 deleted
+00:00:10 Clangd backend executed in 1.22s
+00:00:10   1373 total backend files; 0 created; 3 updated; 1370 unchanged; 0 deleted
+00:00:10 Total wall time: 7.26s; CPU time: 7.08s; Efficiency: 97%; Untracked: 0.31s
+00:00:12 Configure complete!
+00:00:12 Be sure to run |mach build| to pick up any changes
+00:00:12 /usr/bin/gmake -C faster -j12 -s
+00:00:12 Elapsed: 0.02s; From /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/gmp-clearkey/0.1: Kept 0 existing; Added/updated 1; Removed 0 files and 0 directories.
+00:00:13 Elapsed: 0.18s; From /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin: Kept 2021 existing; Added/updated 24; Removed 0 files and 0 directories.
+00:00:14 Elapsed: 0.55s; From /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/dist/bin/browser: Kept 5080 existing; Added/updated 297; Removed 0 files and 0 directories.
+00:00:15 W 1 warning generated.
+00:00:15 W 1 warning generated.
+00:00:18 W 2 compiler warnings present.
+00:00:18 W Overall system resources - Wall time: 18s; CPU: 27%; Read bytes: 190685184; Write bytes: 269348864; Read time: 1016; Write time: 17340
+00:00:18 W (suppressed 2 warnings in third-party code)
+00:00:18 To view a profile of the build, run |mach resource-usage|.
+00:00:18 Your build was successful!
+00:00:18 Streaming resource usage profile to: /home/luap/zen-desktop/engine/obj-x86_64-pc-linux-gnu/.mozbuild/logs/build/profile_log_20261030_205325.json
