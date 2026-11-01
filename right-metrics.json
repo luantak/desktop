@@ -1,0 +1,101 @@
+[
+  {
+    "state": "expanded",
+    "metrics": {
+      "zen-toggle-compact-mode": {
+        "x": 1099,
+        "y": 5,
+        "width": 30,
+        "height": 28,
+        "parent": "zen-sidebar-top-buttons-customization-target"
+      },
+      "zen-sidebar-top-buttons-customization-target": {
+        "x": 1099,
+        "y": 0,
+        "width": 176,
+        "height": 38,
+        "parent": "zen-sidebar-top-buttons"
+      },
+      "navigator-toolbox": {
+        "x": 1094,
+        "y": 0,
+        "width": 186,
+        "height": 800,
+        "parent": "browser"
+      },
+      "PanelUI-button": {
+        "x": 1057,
+        "y": 5,
+        "width": 37,
+        "height": 28,
+        "parent": "nav-bar"
+      }
+    }
+  },
+  {
+    "state": "compact",
+    "metrics": {
+      "zen-toggle-compact-mode": {
+        "x": 1209,
+        "y": 5,
+        "width": 30,
+        "height": 28,
+        "parent": "zen-sidebar-top-buttons-customization-target"
+      },
+      "zen-sidebar-top-buttons-customization-target": {
+        "x": 1208,
+        "y": 0,
+        "width": 35,
+        "height": 38,
+        "parent": "zen-sidebar-top-buttons"
+      },
+      "navigator-toolbox": {
+        "x": 1275,
+        "y": 34,
+        "width": 202,
+        "height": 762,
+        "parent": "browser"
+      },
+      "PanelUI-button": {
+        "x": 1243,
+        "y": 5,
+        "width": 37,
+        "height": 28,
+        "parent": "nav-bar"
+      }
+    }
+  },
+  {
+    "state": "reopened",
+    "metrics": {
+      "zen-toggle-compact-mode": {
+        "x": 1099,
+        "y": 5,
+        "width": 30,
+        "height": 28,
+        "parent": "zen-sidebar-top-buttons-customization-target"
+      },
+      "zen-sidebar-top-buttons-customization-target": {
+        "x": 1099,
+        "y": 0,
+        "width": 176,
+        "height": 38,
+        "parent": "zen-sidebar-top-buttons"
+      },
+      "navigator-toolbox": {
+        "x": 1094,
+        "y": 0,
+        "width": 186,
+        "height": 800,
+        "parent": "browser"
+      },
+      "PanelUI-button": {
+        "x": 1057,
+        "y": 5,
+        "width": 37,
+        "height": 28,
+        "parent": "nav-bar"
+      }
+    }
+  }
+]
